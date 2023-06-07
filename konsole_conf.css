@@ -1,0 +1,44 @@
+QTabBar::tab {
+    border: 3px;
+    font-size: 16px;
+    color: whitesmoke;
+    background-color: rgb(28,27,34);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin: 0;
+    min-width: 250px
+
+}
+
+QTabBar::tab:selected {
+    background: rgb(91, 82, 148);
+    font: bold;
+}
+
+QTabBar::tab:hover {
+    background-color: rgba(104, 104, 105, 0.801);
+    font: bold;
+}
+
+QTabBar::tab:selected:hover {
+    background: rgb(77, 70, 126);
+    font: bold;
+}
+
+QTabBar {
+    background-color: rgb(28,27,34);
+    border: 0;
+    margin: 0;
+    padding: 0;
+  }
+
+
+QTabBar::close-button {
+    image: url(konsole-style/close.png);
+    max-height: 50%;
+    max-width: 50%;
+}
+
+QTabBar::close-button:hover {
+    image: url(konsole-style/close-hover.png);
+}
